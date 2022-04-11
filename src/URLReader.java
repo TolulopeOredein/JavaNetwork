@@ -8,7 +8,7 @@ public class URLReader {
 
     public static  void  main (String args[])  {
         URL wiki;
-        try{ wiki = new URL("https://cnn.com");
+        try{ wiki = new URL("https://www.cnn.com");
             BufferedReader in = new BufferedReader(new InputStreamReader(wiki.openStream()));
             String lineOfWebPage;
             while((lineOfWebPage = in.readLine()) != null){
